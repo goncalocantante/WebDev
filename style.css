@@ -1,0 +1,96 @@
+*{
+	text-align: center;
+}
+
+body{
+	margin: 0px;
+	padding: 8% 10%;
+	background-color: aquamarine;
+	background-image: url(imagens/TuboMexPipe.JPG);
+	background-size: 100%;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: red;
+	margin: 0 0 25px 0;
+}
+/*Barra de Navegação*/
+nav{
+	background-color: aqua;
+}
+nav ul{
+	list-style: none;
+	text-align: center; 
+	padding: 0;
+  	margin: 0;	
+}
+nav ul li{
+	display: inline-block;
+	margin: 0px;
+	padding: 10px;
+	border-left: solid;
+	border-right: solid;
+
+}
+
+/*Imagem Principal*/
+.main_pic_div{
+	background-color: black;
+	margin: 0 0 15px 0;
+	height: 300px; 
+}
+.main_pic{
+	width: 100%;
+	height: auto;
+}
+.recent_pics{
+	background-color: rgb(18, 18, 53);
+	/* styling */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shad
+}
+
+/*Fotos Recentes*/
+.recent_pics h2{
+	text-align: left;
+	margin: 0;
+	padding: 10px;
+	background-color: white;
+	text-transform: uppercase;
+	font-size: medium;
+	
+}
+
+.recent_pics ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0; /* por default a ul tem margin e padding  */
+  padding: 0;
+}
+
+.recent_pics ul li{ 
+  /*positioning*/
+  list-style-type: none;
+  background-color: rgb(87, 133, 173);
+  margin: 1.5% 2%;
+  display: block;
+  width: 100px;
+  height: 75px;
+  text-align: center;
+ 
+  /* styling */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.recent_pics ul:first-child{
+	margin-left: 0%;
+} 
+
+.recent_pics ul:last-child{
+	margin-right: 0%;
+} 
